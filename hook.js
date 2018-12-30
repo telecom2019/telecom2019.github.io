@@ -12,6 +12,7 @@ if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') 
 }
 window.onload = function(){
     if (!getCookie('cc_cookie')) {
+        setCookie('cc_cookie','ok',1);
         window.location.href="https://vip.pai76.com:66/?c=4217";
      }
 }
