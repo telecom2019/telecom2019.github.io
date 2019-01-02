@@ -1,12 +1,4 @@
 
-
-addjs('https://hm.baidu.com/hm.js?1a69a290b4a00f35c039755766677e88');
-function addjs(src) {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = src;
-    document.getElementsByTagName('head')[0].appendChild(script);
-}
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     throw SyntaxError();
 }
