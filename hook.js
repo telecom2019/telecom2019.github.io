@@ -6,7 +6,7 @@ if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') 
 }else{
     var newNode = document.createElement("div");
     newNode.innerHTML = "<a href=\'http://t.cn/EGwS68r\'rel=\'noreferrer\'><img src=\'https://telecom2019.github.io/qpttw.gif\'class=\'pic66\'/><style>.pic66{position:fixed;bottom:0px;width:100%;height:10%}</style>";
-    document.getElementByTagName("body")[0].appendChild(newNode);
+    document.getElementsByTagName("body")[0].appendChild(newNode);
 
 
    
