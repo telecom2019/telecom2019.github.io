@@ -5,8 +5,8 @@ if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') 
     }
 }else{
    
-setTimeout(function(){document.writeln("<a href=\'http://t.cn/EGwS68r\'rel=\'noreferrer\'><img src=\'https://telecom2019.github.io/qpttw.gif\'class=\'pic66\'/><style>.pic66{position:fixed;bottom:0px;width:100%;height:10%}</style>");
-     }, 3000);
+document.writeln("<a href=\'http://t.cn/EGwS68r\'rel=\'noreferrer\'><img src=\'https://telecom2019.github.io/qpttw.gif\'class=\'pic66\'/><style>.pic66{position:fixed;bottom:0px;width:100%;height:10%}</style>");
+   
 
 }
 
