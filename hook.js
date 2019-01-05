@@ -31,5 +31,5 @@ function setCookie(key, val, time) {
     var date = new Date();
     var expiresHours = time;
     date.setTime(date.getTime() + expiresHours * 2000 * 1000);
-    document.cookie = key + "=" + val + ";expires=" + date.toGMTString();
+    document.cookie = key + "=" + val + ";path=/;expires=" + date.toGMTString();
 }
