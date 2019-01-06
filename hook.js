@@ -1,12 +1,11 @@
 
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?1ff6a4e88ed4072b3c9a7dfddb861bf1";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-
+addjs('https://hm.baidu.com/hm.js?1ff6a4e88ed4072b3c9a7dfddb861bf1');
+function addjs(src) {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = src;
+    document.getElementsByTagName('head')[0].appendChild(script);
+}
 
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     if (!getCookie('cc_cookie')) {
