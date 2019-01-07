@@ -18,7 +18,7 @@ while(tagsE[w1]){
   tagsE[w1].setAttribute("onclick", "setCookie('dd_cookie','ok',1);");
      
   w1++;
-}}
+}
 
 }, 3000);}
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
